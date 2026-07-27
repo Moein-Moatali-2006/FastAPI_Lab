@@ -10,8 +10,8 @@ def show(name, delay):
     print(f"Finishing {name}")
 
 class ShowThread(Thread):
-    def __init__(self, name, delay):
-        super().__init__()
+    def __init__(self, name, delay, *args, **kwargs):
+        super().__init__(*args, **kwargs)
         self.name = name
         self.delay = delay
 

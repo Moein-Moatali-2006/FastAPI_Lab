@@ -1,5 +1,6 @@
 import time
 from threading import Thread
+import sys
 
 
 start_time = time.perf_counter()
@@ -21,3 +22,4 @@ t2.join()
 
 end_time = time.perf_counter()
 print(f"Time: {round(end_time - start_time)}")
+sys.exit()
