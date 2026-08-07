@@ -1,0 +1,5 @@
+ERROR:root:[Errno 11001] getaddrinfo failed - ThreadPoolExecutor-0_3
+ERROR:root:[Errno 11001] getaddrinfo failed - ThreadPoolExecutor-0_1
+ERROR:root:[Errno 11001] getaddrinfo failed - ThreadPoolExecutor-0_2
+ERROR:root:[Errno 11001] getaddrinfo failed - ThreadPoolExecutor-0_0
+ERROR:root:[Errno 11001] getaddrinfo failed - ThreadPoolExecutor-0_4
