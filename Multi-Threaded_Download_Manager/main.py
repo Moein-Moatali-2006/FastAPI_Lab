@@ -37,8 +37,3 @@ if __name__ == "__main__":
         for i, url in enumerate(urls):
             save_file_path = DOWNLOAD_DIR / f"file_{i}.dat"
             executor.submit(download_file, url, save_file_path, 30)
-            
-        
-        
-
-   
