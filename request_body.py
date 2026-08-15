@@ -12,4 +12,4 @@ class Person(BaseModel):
 
 @app.post("/home")
 def root(prs: Person):
-    return prs.name
+    return prs
