@@ -35,3 +35,4 @@ def create_user(user: User, session: SessionDep) -> User:
     session.commit()
     session.refresh(user)
     return user
+
