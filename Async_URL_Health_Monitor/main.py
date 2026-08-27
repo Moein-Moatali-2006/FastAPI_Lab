@@ -42,6 +42,6 @@ async def main():
         await asyncio.gather(*results)
 
     print("_"*64)
-    print("Finished - check logs.log if you want.")
+    print("Finished - check logs.log if you need.")
 
 asyncio.run(main())

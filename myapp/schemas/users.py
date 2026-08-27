@@ -10,5 +10,12 @@ class UserBase(BaseModel):
 class UserOut(UserBase):
     id: int
 
+
 class UserIn(UserBase):
     password: str
+
+
+class UserUpdate(UserBase):
+    email: str | None = None
+    username: str | None = None
+    age: int | None = None
