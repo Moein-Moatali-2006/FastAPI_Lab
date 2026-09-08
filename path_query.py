@@ -1,6 +1,7 @@
 from fastapi import FastAPI, Path, Query
 from pydantic import BaseModel
 
+print("Test")
 
 app = FastAPI()
 
